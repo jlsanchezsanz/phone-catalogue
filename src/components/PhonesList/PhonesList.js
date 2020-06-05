@@ -1,6 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import PhonesListItem from './PhonesListItem';
+import { PhonePropType } from '../../prop-types/phone.prop-type';
 
 export default function PhonesList(props) {
   return (
@@ -13,3 +15,7 @@ export default function PhonesList(props) {
     </div>
   );
 }
+
+PhonesList.propTypes = {
+  phones: PropTypes.arrayOf(PropTypes.shape(PhonePropType)).isRequired
+};

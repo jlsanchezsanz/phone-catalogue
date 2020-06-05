@@ -1,4 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import { PhonePropType } from '../../../prop-types/phone.prop-type';
 
 export default function PhonesListItem(props) {
   return (
@@ -22,3 +25,7 @@ export default function PhonesListItem(props) {
     </div>
   );
 }
+
+PhonesListItem.propTypes = {
+  phone: PropTypes.shape(PhonePropType).isRequired
+};
