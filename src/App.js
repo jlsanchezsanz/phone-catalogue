@@ -1,6 +1,11 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch
+} from 'react-router-dom';
 
 import './App.css';
 import PhoneDetailsContainer from './components/PhoneDetailsContainer';
@@ -16,8 +21,11 @@ function App(props) {
     <Router>
       <div className='App'>
         <Switch>
-          <Route exact path='/' component={PhonesListContainer} />
-          <Route path='/:id' component={PhoneDetailsContainer} />
+          <Route exact path='/'>
+            <Redirect to='/phones' />
+          </Route>
+          <Route exact path='/phones' component={PhonesListContainer} />
+          <Route path='/phones/:id' component={PhoneDetailsContainer} />
         </Switch>
       </div>
     </Router>

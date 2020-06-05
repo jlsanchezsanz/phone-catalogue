@@ -10,7 +10,7 @@ export default function PhonesList(props) {
     <div>
       <ul>
         {props.phones.map((phone) => (
-          <Link to={`/${phone.id}`}>
+          <Link to={`/phones/${phone.id}`}>
             <PhonesListItem phone={phone} key={phone.id} />
           </Link>
         ))}

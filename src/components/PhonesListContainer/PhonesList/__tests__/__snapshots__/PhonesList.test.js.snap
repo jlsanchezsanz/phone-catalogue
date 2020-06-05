@@ -4,7 +4,7 @@ exports[`PhonesList should display phones list 1`] = `
 <div>
   <ul>
     <Link
-      to="/0"
+      to="/phones/0"
     >
       <PhonesListItem
         key="0"
@@ -25,7 +25,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/1"
+      to="/phones/1"
     >
       <PhonesListItem
         key="1"
@@ -46,7 +46,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/2"
+      to="/phones/2"
     >
       <PhonesListItem
         key="2"
@@ -67,7 +67,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/3"
+      to="/phones/3"
     >
       <PhonesListItem
         key="3"
@@ -88,7 +88,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/4"
+      to="/phones/4"
     >
       <PhonesListItem
         key="4"
@@ -109,7 +109,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/5"
+      to="/phones/5"
     >
       <PhonesListItem
         key="5"
@@ -130,7 +130,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/6"
+      to="/phones/6"
     >
       <PhonesListItem
         key="6"
@@ -151,7 +151,7 @@ exports[`PhonesList should display phones list 1`] = `
       />
     </Link>
     <Link
-      to="/7"
+      to="/phones/7"
     >
       <PhonesListItem
         key="7"
