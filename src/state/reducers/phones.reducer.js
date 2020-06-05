@@ -5,7 +5,7 @@ import {
 } from '../actions/types';
 
 export const initialState = {
-  isFetching: false,
+  isLoading: false,
   phones: [],
   error: undefined
 };
@@ -13,7 +13,7 @@ export const initialState = {
 export function phonesReducer(state = initialState, action) {
   switch (action.type) {
     case FETCH_PHONES_START:
-      return { ...state, isFetching: true };
+      return { ...state, isLoading: true };
     case FETCH_PHONES_SUCCESS:
       return { ...state, phones: action.payload };
     case FETCH_PHONES_ERROR:

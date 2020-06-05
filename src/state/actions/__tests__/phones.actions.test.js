@@ -7,7 +7,8 @@ import {
   fetchPhones,
   fetchPhonesError,
   fetchPhonesStart,
-  fetchPhonesSuccess
+  fetchPhonesSuccess,
+  PHONES_ENDPOINT
 } from '../phones.actions';
 import {
   FETCH_PHONES_START,
@@ -54,7 +55,7 @@ describe('Phones Actions', () => {
   it('should dispatch fetch success action when fetching done', () => {
     const store = mockStore(initialState);
     const expectedActions = [startAction, successAction];
-    fetchMock.getOnce('../../data/phones.json', {
+    fetchMock.getOnce(PHONES_ENDPOINT, {
       body: {
         data: phonesMock
       }
@@ -67,7 +68,7 @@ describe('Phones Actions', () => {
   it('should dispatch fetch error action when fetching failed', () => {
     const store = mockStore(initialState);
     const expectedActions = [startAction, errorAction];
-    fetchMock.getOnce('../../data/phones.json', Promise.reject(error));
+    fetchMock.getOnce(PHONES_ENDPOINT, Promise.reject(error));
     return store.dispatch(fetchPhones()).then(() => {
       expect(store.getActions()).toEqual(expectedActions);
     });

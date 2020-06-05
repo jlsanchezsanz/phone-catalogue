@@ -4,7 +4,7 @@ import {
   FETCH_PHONES_ERROR
 } from './types';
 
-const PHONES_ENDPOINT = '../../data/phones.json';
+export const PHONES_ENDPOINT = 'http://localhost:3001/phones';
 
 export function fetchPhonesStart() {
   return {

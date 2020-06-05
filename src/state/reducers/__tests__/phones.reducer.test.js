@@ -12,11 +12,11 @@ describe('phonesReducer', () => {
     expect(state).toEqual(initialState);
   });
 
-  it('should set "isFetching" if fetch start', () => {
+  it('should set "isLoading" if fetch start', () => {
     const state = phonesReducer(undefined, {
       type: FETCH_PHONES_START
     });
-    expect(state).toEqual({ ...initialState, isFetching: true });
+    expect(state).toEqual({ ...initialState, isLoading: true });
   });
 
   it('should initialize phones if success', () => {

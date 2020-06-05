@@ -13,7 +13,7 @@ describe('PhonesListItem', () => {
   let component;
 
   it('should display phones list item', () => {
-    component = setUpShallow(phonesMock.phones[0]);
+    component = setUpShallow(phonesMock.data[0]);
     expect(component).toMatchSnapshot();
   });
 });

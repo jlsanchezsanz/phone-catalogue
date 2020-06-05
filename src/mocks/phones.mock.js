@@ -1,5 +1,5 @@
 export const phonesMock = {
-  phones: [
+  data: [
     {
       id: 0,
       name: 'iPhone 7',
