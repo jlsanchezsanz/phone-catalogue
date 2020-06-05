@@ -15,9 +15,9 @@ export function phonesReducer(state = initialState, action) {
     case FETCH_PHONES_START:
       return { ...state, isLoading: true };
     case FETCH_PHONES_SUCCESS:
-      return { ...state, phones: action.payload };
+      return { ...state, phones: action.payload, isLoading: false };
     case FETCH_PHONES_ERROR:
-      return { ...state, error: action.error };
+      return { ...state, error: action.error, isLoading: false };
     default:
       return state;
   }

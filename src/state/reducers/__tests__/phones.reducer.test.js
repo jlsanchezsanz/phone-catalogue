@@ -24,7 +24,11 @@ describe('phonesReducer', () => {
       type: FETCH_PHONES_SUCCESS,
       payload: phonesMock
     });
-    expect(state).toEqual({ ...initialState, phones: phonesMock });
+    expect(state).toEqual({
+      ...initialState,
+      phones: phonesMock,
+      isLoading: false
+    });
   });
 
   it('should set "error" if error', () => {
@@ -33,6 +37,6 @@ describe('phonesReducer', () => {
       type: FETCH_PHONES_ERROR,
       error
     });
-    expect(state).toEqual({ ...initialState, error });
+    expect(state).toEqual({ ...initialState, error, isLoading: false });
   });
 });
