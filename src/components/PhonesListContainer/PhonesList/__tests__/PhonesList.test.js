@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import PhonesList from '../PhonesList';
-import { phonesMock } from '../../../mocks/phones.mock';
+import { phonesMock } from '../../../../mocks/phones.mock';
 
 const setUpShallow = (phones) => {
   const component = shallow(<PhonesList phones={phones} />);
