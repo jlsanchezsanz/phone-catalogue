@@ -2,6 +2,11 @@
 
 exports[`PhoneDetails should display phone details 1`] = `
 <div>
+  <Link
+    to="/phones"
+  >
+    All phones
+  </Link>
   <img
     alt="iPhone 7"
     className="image"

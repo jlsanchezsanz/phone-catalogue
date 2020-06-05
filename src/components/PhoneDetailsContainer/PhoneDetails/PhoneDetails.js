@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import { PhonePropType } from '../../../prop-types/phone.prop-type';
 
 function PhoneDetails(props) {
   return (
     <div>
+      <Link to='/phones'>All phones</Link>
       <img
         className='image'
         src={require(`../../../assets/${props.phone.imageFileName}`)}
