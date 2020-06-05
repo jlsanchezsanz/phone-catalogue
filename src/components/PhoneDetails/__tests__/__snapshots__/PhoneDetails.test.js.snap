@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneDetails should display phones list 1`] = `
+<div>
+  <img
+    alt="iPhone 7"
+    className="image"
+    src="IPhone_7.png"
+  />
+  <h1
+    className="display-4"
+  >
+    Apple
+     
+    iPhone 7
+  </h1>
+  <ul
+    className="traits"
+  >
+    <li
+      className="traits__item"
+    >
+      <span>
+        769
+        €
+      </span>
+    </li>
+    <li
+      className="traits__item"
+    >
+      <span>
+        black
+      </span>
+    </li>
+    <li
+      className="traits__item"
+    >
+      <span>
+        4,7 inch IPS
+      </span>
+    </li>
+    <li
+      className="traits__item"
+    >
+      <span>
+        A10 Fusion
+      </span>
+    </li>
+    <li
+      className="traits__item"
+    >
+      <span>
+        2
+        GB RAM
+      </span>
+    </li>
+    <li
+      className="traits__item"
+    >
+      <span>
+        iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.
+      </span>
+    </li>
+  </ul>
+</div>
+`;
