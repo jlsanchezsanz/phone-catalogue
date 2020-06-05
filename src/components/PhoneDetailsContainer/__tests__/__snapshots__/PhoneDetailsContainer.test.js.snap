@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneDetailsContainer should display loading message while no phone 1`] = `
+<Connect(PhoneDetailsContainer)
+  match={
+    Object {
+      "params": Object {},
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <PhoneDetailsContainer
+    dispatch={[Function]}
+    match={
+      Object {
+        "params": Object {},
+      }
+    }
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <p>
+      Loading...
+    </p>
+  </PhoneDetailsContainer>
+</Connect(PhoneDetailsContainer)>
+`;
+
+exports[`PhoneDetailsContainer should display phone details 1`] = `
+<Connect(PhoneDetailsContainer)
+  match={
+    Object {
+      "params": Object {
+        "id": "1",
+      },
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <PhoneDetailsContainer
+    dispatch={[Function]}
+    match={
+      Object {
+        "params": Object {
+          "id": "1",
+        },
+      }
+    }
+    phone={
+      Object {
+        "color": "grey",
+        "description": "Introducing the smartphone your life can not do without, The Samsung Galaxy S7. Packed with features to keep you both productive and entertained, all in a sleek, slim design that fits comfortably in your hand or pocket.",
+        "id": 1,
+        "imageFileName": "Galaxy_S7.png",
+        "manufacturer": "Samsung",
+        "name": "Galaxy S7",
+        "price": 209,
+        "processor": "Snapdragon 820",
+        "ram": 4,
+        "screen": "5,1 inch Quad-HD",
+      }
+    }
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Component
+      phone={
+        Object {
+          "color": "grey",
+          "description": "Introducing the smartphone your life can not do without, The Samsung Galaxy S7. Packed with features to keep you both productive and entertained, all in a sleek, slim design that fits comfortably in your hand or pocket.",
+          "id": 1,
+          "imageFileName": "Galaxy_S7.png",
+          "manufacturer": "Samsung",
+          "name": "Galaxy S7",
+          "price": 209,
+          "processor": "Snapdragon 820",
+          "ram": 4,
+          "screen": "5,1 inch Quad-HD",
+        }
+      }
+    />
+  </PhoneDetailsContainer>
+</Connect(PhoneDetailsContainer)>
+`;

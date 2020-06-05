@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PhoneDetails should display phones list 1`] = `
+exports[`PhoneDetails should display phone details 1`] = `
 <div>
   <img
     alt="iPhone 7"

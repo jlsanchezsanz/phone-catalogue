@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { PhonePropType } from '../../prop-types/phone.prop-type';
+import { PhonePropType } from '../../../prop-types/phone.prop-type';
 
-export default function PhoneDetails(props) {
+function PhoneDetails(props) {
   return (
     <div>
       <img
         className='image'
-        src={require(`../../assets/${props.phone.imageFileName}`)}
+        src={require(`../../../assets/${props.phone.imageFileName}`)}
         alt={props.phone.name}
       />
       <h1 className='display-4'>
@@ -41,3 +41,5 @@ export default function PhoneDetails(props) {
 PhoneDetails.propTypes = {
   phone: PropTypes.shape(PhonePropType).isRequired
 };
+
+export default PhoneDetails;
