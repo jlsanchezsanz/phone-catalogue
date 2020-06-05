@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-
-import PhonesList from './components/PhonesList';
-import { fetchPhones } from './state/actions/phones.actions';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
+import PhoneDetailsContainer from './components/PhoneDetailsContainer';
+import PhonesListContainer from './components/PhonesListContainer';
+import { fetchPhones } from './state/actions/phones.actions';
 
 function App(props) {
   useEffect(() => {
@@ -12,9 +13,14 @@ function App(props) {
   }, []);
 
   return (
-    <div className='App'>
-      <PhonesList phones={props.phones} />
-    </div>
+    <Router>
+      <div className='App'>
+        <Switch>
+          <Route exact path='/' component={PhonesListContainer} />
+          <Route path='/:id' component={PhoneDetailsContainer} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
