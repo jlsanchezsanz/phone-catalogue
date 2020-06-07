@@ -77,7 +77,9 @@ exports[`PhoneDetailsContainer should display phone details 1`] = `
         "color": "grey",
         "description": "Introducing the smartphone your life can not do without, The Samsung Galaxy S7. Packed with features to keep you both productive and entertained, all in a sleek, slim design that fits comfortably in your hand or pocket.",
         "id": 1,
-        "imageFileName": "Galaxy_S7.png",
+        "images": Array [
+          "Galaxy_S7.png",
+        ],
         "manufacturer": "Samsung",
         "name": "Galaxy S7",
         "price": 209,
@@ -103,7 +105,9 @@ exports[`PhoneDetailsContainer should display phone details 1`] = `
           "color": "grey",
           "description": "Introducing the smartphone your life can not do without, The Samsung Galaxy S7. Packed with features to keep you both productive and entertained, all in a sleek, slim design that fits comfortably in your hand or pocket.",
           "id": 1,
-          "imageFileName": "Galaxy_S7.png",
+          "images": Array [
+            "Galaxy_S7.png",
+          ],
           "manufacturer": "Samsung",
           "name": "Galaxy S7",
           "price": 209,

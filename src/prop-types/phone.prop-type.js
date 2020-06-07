@@ -7,7 +7,7 @@ export const PhonePropType = {
   description: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  imageFileName: PropTypes.string.isRequired,
+  images: PropTypes.arrayOf(PropTypes.string).isRequired,
   screen: PropTypes.string.isRequired,
   processor: PropTypes.string.isRequired,
   ram: PropTypes.number.isRequired

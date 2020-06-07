@@ -9,7 +9,7 @@ export default function PhonesListItem(props) {
     <div class='card phone'>
       <img
         class='card-img-top'
-        src={require(`../../../../assets/${props.phone.imageFileName}`)}
+        src={require(`../../../../assets/${props.phone.images[0]}`)}
         alt={props.phone.name}
       />
       <div class='card-body'>
