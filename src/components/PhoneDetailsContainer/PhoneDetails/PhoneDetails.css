@@ -3,6 +3,14 @@
   flex-direction: column;
 }
 
+.details__back-button {
+  align-self: flex-start;
+}
+
+.details__back-button:hover {
+  text-decoration: underline;
+}
+
 .details__wrapper {
   display: flex;
 }

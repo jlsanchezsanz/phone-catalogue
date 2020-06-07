@@ -11,7 +11,10 @@ import './PhoneDetails.css';
 function PhoneDetails({ phone }) {
   return (
     <div className='details'>
-      <Link to='/phones'>All phones</Link>
+      <Link to='/phones' className='details__back-button'>
+        <img src={require('../../../assets/arrow-left.svg')} alt='All phones' />
+        All phones
+      </Link>
       <div className='details__wrapper'>
         <PhoneGallery images={phone.images} phoneName={phone.name} />
         <PhoneInfo phone={phone} />

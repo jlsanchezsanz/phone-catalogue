@@ -5,8 +5,22 @@ exports[`PhoneDetails should display phone details 1`] = `
   className="details"
 >
   <Link
+    className="details__back-button"
     to="/phones"
   >
+    <img
+      alt="All phones"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "arrow-left.svg",
+        }
+      }
+    />
     All phones
   </Link>
   <div
