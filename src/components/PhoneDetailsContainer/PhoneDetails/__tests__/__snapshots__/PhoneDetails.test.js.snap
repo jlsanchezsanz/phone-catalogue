@@ -45,69 +45,21 @@ exports[`PhoneDetails should display phone details 1`] = `
       </button>
     </div>
   </div>
-  <div
-    className="details__wrapper details__specifications"
-  >
-    <h4>
-      SPECS
-    </h4>
-    <ul
-      className="list-group"
-    >
-      <li
-        className="list-group-item"
-        key="screen"
-      >
-        <dl>
-          <dt>
-            Screen:
-          </dt>
-          <dd>
-            4,7 inch IPS
-          </dd>
-        </dl>
-      </li>
-      <li
-        className="list-group-item"
-        key="processor"
-      >
-        <dl>
-          <dt>
-            Processor:
-          </dt>
-          <dd>
-            A10 Fusion
-          </dd>
-        </dl>
-      </li>
-      <li
-        className="list-group-item"
-        key="ram"
-      >
-        <dl>
-          <dt>
-            Memory:
-          </dt>
-          <dd>
-            2
-            GB RAM
-          </dd>
-        </dl>
-      </li>
-      <li
-        className="list-group-item"
-        key="description"
-      >
-        <dl>
-          <dt>
-            Description:
-          </dt>
-          <dd>
-            iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.
-          </dd>
-        </dl>
-      </li>
-    </ul>
-  </div>
+  <PhoneSpecs
+    phone={
+      Object {
+        "color": "black",
+        "description": "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.",
+        "id": 0,
+        "imageFileName": "IPhone_7.png",
+        "manufacturer": "Apple",
+        "name": "iPhone 7",
+        "price": 769,
+        "processor": "A10 Fusion",
+        "ram": 2,
+        "screen": "4,7 inch IPS",
+      }
+    }
+  />
 </div>
 `;

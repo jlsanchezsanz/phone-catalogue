@@ -1,0 +1,25 @@
+.specs {
+  display: flex;
+  flex-direction: column;
+}
+
+
+dl {
+  margin: 0;
+  padding: 20px 30px;
+  text-align: left;
+}
+
+dt {
+  width: 100px;
+}
+
+dd {
+  color: #333;
+  font-weight: 300;
+}
+
+dt,
+dd {
+  display: inline-block;
+}
