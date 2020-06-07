@@ -2,26 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { PhonePropType } from '../../../../prop-types/phone.prop-type';
+import './PhonesListItem.css';
 
 export default function PhonesListItem(props) {
   return (
-    <div>
+    <div class='card phone'>
       <img
-        className='image'
+        class='card-img-top'
         src={require(`../../../../assets/${props.phone.imageFileName}`)}
         alt={props.phone.name}
       />
-      <h1 className='display-4'>
-        {props.phone.manufacturer} {props.phone.name}
-      </h1>
-      <ul className='traits'>
-        <li className='traits__item'>
-          <span>{props.phone.price}€</span>
-        </li>
-        <li className='traits__item'>
-          <span>{props.phone.ram}GB RAM</span>
-        </li>
-      </ul>
+      <div class='card-body'>
+        <h5 class='card-title'>
+          {props.phone.manufacturer} {props.phone.name}
+        </h5>
+        <p class='card-text phone__price'>{props.phone.price} €</p>
+      </div>
+      <button type="button" class="btn btn-info">+ Info</button>
     </div>
   );
 }

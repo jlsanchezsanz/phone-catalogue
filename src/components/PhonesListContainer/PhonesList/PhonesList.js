@@ -4,17 +4,16 @@ import { Link } from 'react-router-dom';
 
 import PhonesListItem from './PhonesListItem';
 import { PhonePropType } from '../../../prop-types/phone.prop-type';
+import './PhonesList.css';
 
 export default function PhonesList(props) {
   return (
-    <div>
-      <ul>
-        {props.phones.map((phone) => (
-          <Link to={`/phones/${phone.id}`}>
-            <PhonesListItem phone={phone} key={phone.id} />
-          </Link>
-        ))}
-      </ul>
+    <div class='card-deck'>
+      {props.phones.map((phone) => (
+        <Link to={`/phones/${phone.id}`} key={phone.id}>
+          <PhonesListItem phone={phone} />
+        </Link>
+      ))}
     </div>
   );
 }

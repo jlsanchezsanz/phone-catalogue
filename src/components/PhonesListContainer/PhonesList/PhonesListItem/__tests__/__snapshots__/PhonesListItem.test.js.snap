@@ -1,38 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PhonesListItem should display phones list item 1`] = `
-<div>
+<div
+  class="card phone"
+>
   <img
     alt="iPhone 7"
-    className="image"
+    class="card-img-top"
     src="IPhone_7.png"
   />
-  <h1
-    className="display-4"
+  <div
+    class="card-body"
   >
-    Apple
-     
-    iPhone 7
-  </h1>
-  <ul
-    className="traits"
+    <h5
+      class="card-title"
+    >
+      Apple
+       
+      iPhone 7
+    </h5>
+    <p
+      class="card-text phone__price"
+    >
+      769
+       €
+    </p>
+  </div>
+  <button
+    class="btn btn-info"
+    type="button"
   >
-    <li
-      className="traits__item"
-    >
-      <span>
-        769
-        €
-      </span>
-    </li>
-    <li
-      className="traits__item"
-    >
-      <span>
-        2
-        GB RAM
-      </span>
-    </li>
-  </ul>
+    + Info
+  </button>
 </div>
 `;
