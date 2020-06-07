@@ -14,23 +14,3 @@
 .image {
   width: 100%;
 }
-
-.details__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40%;
-}
-
-.details__info > * {
-  margin-bottom: 30px;
-}
-
-.info__price {
-  color: #326190;
-  font-size: 40px;
-}
-
-h1 {
-  font-size: 24px;
-}

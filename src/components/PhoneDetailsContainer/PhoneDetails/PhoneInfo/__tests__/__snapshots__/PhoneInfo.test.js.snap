@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneInfo should display phone info 1`] = `
+<div
+  className="info"
+>
+  <h1>
+    Apple
+     
+    iPhone 7
+     
+    black
+  </h1>
+  <div
+    className="info__price"
+  >
+    769
+     €
+  </div>
+  <button
+    class="btn btn-info"
+    type="button"
+  >
+    Add to cart
+  </button>
+</div>
+`;

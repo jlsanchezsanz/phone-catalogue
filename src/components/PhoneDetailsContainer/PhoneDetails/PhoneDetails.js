@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 import { PhonePropType } from '../../../prop-types/phone.prop-type';
+import PhoneInfo from './PhoneInfo';
 import PhoneSpecs from './PhoneSpecs';
 import './PhoneDetails.css';
 
@@ -18,15 +19,7 @@ function PhoneDetails(props) {
             alt={props.phone.name}
           />
         </div>
-        <div className='details__info'>
-          <h1>
-            {props.phone.manufacturer} {props.phone.name} {props.phone.color}
-          </h1>
-          <div className='info__price'>{props.phone.price} €</div>
-          <button type='button' class='btn btn-info'>
-            Add to cart
-          </button>
-        </div>
+        <PhoneInfo phone={props.phone} />
       </div>
       <PhoneSpecs phone={props.phone} />
     </div>

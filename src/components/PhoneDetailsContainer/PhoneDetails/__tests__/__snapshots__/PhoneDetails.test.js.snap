@@ -21,29 +21,22 @@ exports[`PhoneDetails should display phone details 1`] = `
         src="IPhone_7.png"
       />
     </div>
-    <div
-      className="details__info"
-    >
-      <h1>
-        Apple
-         
-        iPhone 7
-         
-        black
-      </h1>
-      <div
-        className="info__price"
-      >
-        769
-         €
-      </div>
-      <button
-        class="btn btn-info"
-        type="button"
-      >
-        Add to cart
-      </button>
-    </div>
+    <PhoneInfo
+      phone={
+        Object {
+          "color": "black",
+          "description": "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.",
+          "id": 0,
+          "imageFileName": "IPhone_7.png",
+          "manufacturer": "Apple",
+          "name": "iPhone 7",
+          "price": 769,
+          "processor": "A10 Fusion",
+          "ram": 2,
+          "screen": "4,7 inch IPS",
+        }
+      }
+    />
   </div>
   <PhoneSpecs
     phone={
