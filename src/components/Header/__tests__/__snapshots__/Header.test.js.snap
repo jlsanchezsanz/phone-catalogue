@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should display phone gallery 1`] = `
+<div>
+  <nav
+    class="navbar navbar-dark bg-dark"
+  >
+    <a
+      class="navbar-brand"
+      href="./"
+    >
+      Phone Catalogue
+    </a>
+    <img
+      alt="Cart"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "cart.svg",
+        }
+      }
+    />
+  </nav>
+</div>
+`;

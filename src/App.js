@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
+import Header from './components/Header';
 import PhoneDetailsContainer from './components/PhoneDetailsContainer';
 import PhonesListContainer from './components/PhonesListContainer';
 import { fetchPhones } from './state/actions/phones.actions';
@@ -19,7 +20,8 @@ function App(props) {
 
   return (
     <Router>
-      <div className='App'>
+      <Header />
+      <div className='container'>
         <Switch>
           <Route exact path='/'>
             <Redirect to='/phones' />
