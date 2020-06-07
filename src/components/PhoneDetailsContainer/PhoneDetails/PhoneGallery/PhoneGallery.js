@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './PhoneGallery.css';
-
 export default function PhoneGallery(props) {
   return (
     <div className='gallery'>
