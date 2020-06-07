@@ -12,22 +12,23 @@ exports[`PhoneDetails should display phone details 1`] = `
   <div
     className="details__wrapper"
   >
-    <div
-      className="details__img-gallery"
-    >
-      <img
-        alt="iPhone 7"
-        className="image"
-        src="IPhone_7.png"
-      />
-    </div>
+    <PhoneGallery
+      images={
+        Array [
+          "IPhone_7.png",
+        ]
+      }
+      phoneName="iPhone 7"
+    />
     <PhoneInfo
       phone={
         Object {
           "color": "black",
           "description": "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.",
           "id": 0,
-          "imageFileName": "IPhone_7.png",
+          "images": Array [
+            "IPhone_7.png",
+          ],
           "manufacturer": "Apple",
           "name": "iPhone 7",
           "price": 769,
@@ -44,7 +45,9 @@ exports[`PhoneDetails should display phone details 1`] = `
         "color": "black",
         "description": "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.",
         "id": 0,
-        "imageFileName": "IPhone_7.png",
+        "images": Array [
+          "IPhone_7.png",
+        ],
         "manufacturer": "Apple",
         "name": "iPhone 7",
         "price": 769,

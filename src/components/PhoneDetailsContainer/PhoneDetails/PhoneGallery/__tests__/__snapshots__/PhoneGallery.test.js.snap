@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneGallery should display phone gallery 1`] = `
+<div
+  className="gallery"
+>
+  <img
+    alt="iPhone 7"
+    className="image"
+    key="IPhone_7.png"
+    src="IPhone_7.png"
+  />
+</div>
+`;
