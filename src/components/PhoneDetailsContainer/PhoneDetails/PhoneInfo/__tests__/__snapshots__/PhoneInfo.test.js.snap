@@ -22,6 +22,20 @@ exports[`PhoneInfo should display phone info 1`] = `
     type="button"
   >
     Add to cart
+    <img
+      alt="Add to cart"
+      class="btn__icon"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "cart-plus.svg",
+        }
+      }
+    />
   </button>
 </div>
 `;

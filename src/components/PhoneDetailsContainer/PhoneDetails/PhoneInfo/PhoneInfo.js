@@ -13,6 +13,11 @@ export default function PhoneInfo(props) {
       <div className='info__price'>{props.phone.price} €</div>
       <button type='button' class='btn btn-info'>
         Add to cart
+        <img
+          class="btn__icon"
+          src={require('../../../../assets/cart-plus.svg')}
+          alt='Add to cart'
+        />
       </button>
     </div>
   );
