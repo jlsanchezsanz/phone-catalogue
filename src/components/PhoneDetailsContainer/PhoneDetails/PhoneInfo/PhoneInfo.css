@@ -5,6 +5,12 @@
   width: 40%;
 }
 
+@media only screen and (max-width: 768px) {
+  .info {
+    width: 100%;
+  }
+}
+
 .info > * {
   margin-bottom: 30px;
 }

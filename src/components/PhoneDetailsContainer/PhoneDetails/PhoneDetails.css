@@ -14,3 +14,13 @@
 .image {
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .details__wrapper {
+    flex-direction: column;
+  }
+
+  .details__img-gallery {
+    width: 100%;
+  }
+}
