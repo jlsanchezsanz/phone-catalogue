@@ -13,10 +13,10 @@ import PhoneDetailsContainer from './components/PhoneDetailsContainer';
 import PhonesListContainer from './components/PhonesListContainer';
 import { fetchPhones } from './state/actions/phones.actions';
 
-function App(props) {
+function App({ dispatch }) {
   useEffect(() => {
-    props.dispatch(fetchPhones());
-  }, []);
+    dispatch(fetchPhones());
+  }, [dispatch]);
 
   return (
     <Router>
