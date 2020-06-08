@@ -2,13 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import PhonesList from './PhonesList';
+import Spinner from '../Spinner';
 
-function PhonesListContainer(props) {
-  return props.isLoading ? (
-    <p>Loading...</p>
-  ) : (
-    <PhonesList phones={props.phones} />
-  );
+function PhonesListContainer({ isLoading, phones }) {
+  return isLoading ? <Spinner /> : <PhonesList phones={phones} />;
 }
 
 const mapStateToProps = (state) => ({

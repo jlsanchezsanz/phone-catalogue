@@ -6,6 +6,7 @@ import { mockStore } from '../../../state/__mocks__/store';
 import { phonesMock } from '../../../mocks/phones.mock';
 
 jest.mock('../PhoneDetails', () => () => <></>);
+jest.mock('../../Spinner', () => () => <></>);
 
 const setUpMount = (initialState, match) => {
   const store = mockStore(initialState);

@@ -2,13 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import PhoneDetails from './PhoneDetails';
+import Spinner from '../Spinner';
 
-function PhoneDetailsContainer(props) {
-  return !props.phone ? (
-    <p>Loading...</p>
-  ) : (
-    <PhoneDetails phone={props.phone} />
-  );
+function PhoneDetailsContainer({ phone }) {
+  return !phone ? <Spinner /> : <PhoneDetails phone={phone} />;
 }
 
 const mapStateToProps = (state, ownProps) => ({

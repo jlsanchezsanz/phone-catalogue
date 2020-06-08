@@ -36,9 +36,7 @@ exports[`PhoneDetailsContainer should display loading message while no phone 1`]
       }
     }
   >
-    <p>
-      Loading...
-    </p>
+    <Component />
   </PhoneDetailsContainer>
 </Connect(PhoneDetailsContainer)>
 `;

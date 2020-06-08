@@ -27,9 +27,7 @@ exports[`PhonesListContainer should display loading message while loading 1`] = 
       }
     }
   >
-    <p>
-      Loading...
-    </p>
+    <Component />
   </PhonesListContainer>
 </Connect(PhonesListContainer)>
 `;
