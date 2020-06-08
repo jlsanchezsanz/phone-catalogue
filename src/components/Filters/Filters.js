@@ -1,27 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { MANUFACTURERS } from '../../constants/manufacturers';
+import ManufacturerSelect from './ManufacturerSelect/ManufacturerSelect';
 
 export default function Filters({ onFiltersChange }) {
-  function handleFiltersChange(e) {
-    const { value, name } = e.target;
-    onFiltersChange({ [name]: value });
-  }
-
   return (
     <form>
-      <select
-        name='manufacturer'
-        className='form-control'
-        onChange={handleFiltersChange}
-      >
-        {Object.keys(MANUFACTURERS).map((manufacturer) => (
-          <option key={manufacturer} value={MANUFACTURERS[manufacturer]}>
-            {manufacturer}
-          </option>
-        ))}
-      </select>
+      <ManufacturerSelect onManufacturerChange={onFiltersChange} />
     </form>
   );
 }

@@ -2,59 +2,8 @@
 
 exports[`Filters should render component 1`] = `
 <form>
-  <select
-    className="form-control"
-    name="manufacturer"
-    onChange={[Function]}
-  >
-    <option
-      key="All"
-      value=""
-    >
-      All
-    </option>
-    <option
-      key="Apple"
-      value="Apple"
-    >
-      Apple
-    </option>
-    <option
-      key="Asus"
-      value="Asus"
-    >
-      Asus
-    </option>
-    <option
-      key="Huawei"
-      value="Huawei"
-    >
-      Huawei
-    </option>
-    <option
-      key="Motorola"
-      value="Motorola"
-    >
-      Motorola
-    </option>
-    <option
-      key="Nokia"
-      value="Nokia"
-    >
-      Nokia
-    </option>
-    <option
-      key="Samsung"
-      value="Samsung"
-    >
-      Samsung
-    </option>
-    <option
-      key="Xiaom"
-      value="Xiaomi"
-    >
-      Xiaom
-    </option>
-  </select>
+  <ManufacturerSelect
+    onManufacturerChange={[MockFunction]}
+  />
 </form>
 `;

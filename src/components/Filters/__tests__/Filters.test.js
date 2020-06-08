@@ -20,10 +20,10 @@ describe('Filters', () => {
     const name = 'manufacturer';
     const value = 'Nokia';
     const component = setUpShallow(handleFiltersChange);
-    const select = component.find(`select[name="${name}"]`);
+    const select = component.find('ManufacturerSelect');
 
     expect(handleFiltersChange).not.toHaveBeenCalled();
-    select.simulate('change', { target: { value, name } });
+    select.prop('onManufacturerChange')({ [name]: value });
 
     expect(handleFiltersChange).toHaveBeenCalledTimes(1);
     expect(handleFiltersChange).toHaveBeenCalledWith({ [name]: value });
