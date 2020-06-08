@@ -18,7 +18,7 @@ export default function PhonesListItem(props) {
         </h5>
         <p className='card-text phone__price'>{props.phone.price} €</p>
       </div>
-      <button type="button" class="btn btn-info">+ Info</button>
+      <button type="button" className="btn btn-info">+ Info</button>
     </div>
   );
 }

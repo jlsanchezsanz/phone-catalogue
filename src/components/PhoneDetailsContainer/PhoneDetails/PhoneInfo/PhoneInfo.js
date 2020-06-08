@@ -14,7 +14,7 @@ export default function PhoneInfo(props) {
       <button type='button' className='btn btn-info'>
         Add to cart
         <img
-          class="btn__icon"
+          className="btn__icon"
           src={require('../../../../assets/cart-plus.svg')}
           alt='Add to cart'
         />

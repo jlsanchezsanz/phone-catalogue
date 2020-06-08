@@ -27,7 +27,7 @@ exports[`PhonesListItem should display phones list item 1`] = `
     </p>
   </div>
   <button
-    class="btn btn-info"
+    className="btn btn-info"
     type="button"
   >
     + Info

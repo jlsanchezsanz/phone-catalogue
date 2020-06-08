@@ -24,7 +24,7 @@ exports[`PhoneInfo should display phone info 1`] = `
     Add to cart
     <img
       alt="Add to cart"
-      class="btn__icon"
+      className="btn__icon"
       src={
         Object {
           "ReactComponent": Object {
