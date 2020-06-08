@@ -11,12 +11,14 @@ const setUpShallow = (initialState) => {
   return component;
 };
 
-test('should render component', () => {
-  const phonesReducer = {
-    phones: phonesMock.data,
-    isLoading: false,
-    error: {}
-  };
-  const component = setUpShallow({ phonesReducer });
-  expect(component).toMatchSnapshot();
+describe('App', () => {
+  it('should render component', () => {
+    const phonesReducer = {
+      phones: phonesMock.data,
+      isLoading: false,
+      error: {}
+    };
+    const component = setUpShallow({ phonesReducer });
+    expect(component).toMatchSnapshot();
+  });
 });

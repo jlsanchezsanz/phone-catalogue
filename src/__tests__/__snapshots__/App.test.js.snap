@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render component 1`] = `
+exports[`App should render component 1`] = `
 <ContextProvider
   value={null}
 >

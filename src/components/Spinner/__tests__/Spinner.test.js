@@ -3,7 +3,9 @@ import { shallow } from 'enzyme';
 
 import Spinner from '../Spinner';
 
-test('should render component', () => {
-  const component = shallow(<Spinner />);
-  expect(component).toMatchSnapshot();
+describe('Spinner', () => {
+  it('should render component', () => {
+    const component = shallow(<Spinner />);
+    expect(component).toMatchSnapshot();
+  });
 });
