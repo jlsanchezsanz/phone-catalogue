@@ -2,7 +2,7 @@
 
 exports[`PhonesList should display phones list 1`] = `
 <div
-  class="card-deck"
+  className="card-deck"
 >
   <Link
     key="0"

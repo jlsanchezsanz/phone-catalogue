@@ -3,10 +3,10 @@
 exports[`Header should display phone gallery 1`] = `
 <div>
   <nav
-    class="navbar navbar-dark bg-dark"
+    className="navbar navbar-dark bg-dark"
   >
     <a
-      class="navbar-brand"
+      className="navbar-brand"
       href="./"
     >
       Phone Catalogue

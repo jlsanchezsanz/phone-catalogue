@@ -18,7 +18,7 @@ exports[`PhoneInfo should display phone info 1`] = `
      €
   </div>
   <button
-    class="btn btn-info"
+    className="btn btn-info"
     type="button"
   >
     Add to cart

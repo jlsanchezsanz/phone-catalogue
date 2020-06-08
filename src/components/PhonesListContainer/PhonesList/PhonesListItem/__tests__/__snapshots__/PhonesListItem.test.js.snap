@@ -2,25 +2,25 @@
 
 exports[`PhonesListItem should display phones list item 1`] = `
 <div
-  class="card phone"
+  className="card phone"
 >
   <img
     alt="iPhone 7"
-    class="card-img-top"
+    className="card-img-top"
     src="IPhone_7.png"
   />
   <div
-    class="card-body"
+    className="card-body"
   >
     <h5
-      class="card-title"
+      className="card-title"
     >
       Apple
        
       iPhone 7
     </h5>
     <p
-      class="card-text phone__price"
+      className="card-text phone__price"
     >
       769
        €

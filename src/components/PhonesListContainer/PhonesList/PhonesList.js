@@ -8,7 +8,7 @@ import './PhonesList.css';
 
 export default function PhonesList(props) {
   return (
-    <div class='card-deck'>
+    <div className='card-deck'>
       {props.phones.map((phone) => (
         <Link to={`/phones/${phone.id}`} key={phone.id}>
           <PhonesListItem phone={phone} />

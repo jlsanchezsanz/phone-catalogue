@@ -11,7 +11,7 @@ export default function PhoneInfo(props) {
         {props.phone.manufacturer} {props.phone.name} {props.phone.color}
       </h1>
       <div className='info__price'>{props.phone.price} €</div>
-      <button type='button' class='btn btn-info'>
+      <button type='button' className='btn btn-info'>
         Add to cart
         <img
           class="btn__icon"
