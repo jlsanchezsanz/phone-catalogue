@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ManufacturerSelect from './ManufacturerSelect/ManufacturerSelect';
+import ManufacturerSelect from './ManufacturerSelect';
 
 export default function Filters({ onFiltersChange }) {
   return (
