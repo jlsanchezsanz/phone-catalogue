@@ -1,0 +1,13 @@
+version: "2"
+services:
+    client:
+        build: ./ui
+        ports:
+            - "3000:3000"
+        links:
+            - api
+        stdin_open: true
+    api:
+        build: ./api
+        ports:
+            - "3001:3001"

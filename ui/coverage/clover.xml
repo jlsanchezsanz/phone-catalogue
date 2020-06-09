@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1591726058417" clover="3.2.0">
+  <project timestamp="1591726058417" name="All files">
+    <metrics statements="63" coveredstatements="58" conditionals="11" coveredconditionals="11" methods="35" coveredmethods="31" elements="109" coveredelements="100" complexity="0" loc="63" ncloc="63" packages="18" files="19" classes="19"/>
+    <package name="src">
+      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <file name="App.js" path="/Users/sanchezjl/dev/phone-catalogue/src/App.js">
+        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Filters">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Filters.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/Filters/Filters.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Filters.ManufacturerSelect">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="ManufacturerSelect.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/Filters/ManufacturerSelect/ManufacturerSelect.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Header">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/Header/Header.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhoneDetailsContainer">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="PhoneDetailsContainer.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhoneDetailsContainer/PhoneDetailsContainer.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhoneDetailsContainer.PhoneDetails">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PhoneDetails.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhoneDetailsContainer/PhoneDetails/PhoneDetails.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhoneDetailsContainer.PhoneDetails.PhoneGallery">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="PhoneGallery.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhoneDetailsContainer/PhoneDetails/PhoneGallery/PhoneGallery.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhoneDetailsContainer.PhoneDetails.PhoneInfo">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PhoneInfo.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhoneDetailsContainer/PhoneDetails/PhoneInfo/PhoneInfo.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhoneDetailsContainer.PhoneDetails.PhoneSpecs">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PhoneSpecs.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhoneDetailsContainer/PhoneDetails/PhoneSpecs/PhoneSpecs.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhonesListContainer">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="PhonesListContainer.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhonesListContainer/PhonesListContainer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhonesListContainer.PhonesList">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="PhonesList.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhonesListContainer/PhonesList/PhonesList.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="28" count="33" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PhonesListContainer.PhonesList.PhonesListItem">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PhonesListItem.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/PhonesListContainer/PhonesList/PhonesListItem/PhonesListItem.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Spinner">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Spinner.js" path="/Users/sanchezjl/dev/phone-catalogue/src/components/Spinner/Spinner.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.constants">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="manufacturers.js" path="/Users/sanchezjl/dev/phone-catalogue/src/constants/manufacturers.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mocks">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="phones.mock.js" path="/Users/sanchezjl/dev/phone-catalogue/src/mocks/phones.mock.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.prop-types">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="phone.prop-type.js" path="/Users/sanchezjl/dev/phone-catalogue/src/prop-types/phone.prop-type.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.state.actions">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="phones.actions.js" path="/Users/sanchezjl/dev/phone-catalogue/src/state/actions/phones.actions.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="types.js" path="/Users/sanchezjl/dev/phone-catalogue/src/state/actions/types.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.state.reducers">
+      <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="phones.reducer.js" path="/Users/sanchezjl/dev/phone-catalogue/src/state/reducers/phones.reducer.js">
+        <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
