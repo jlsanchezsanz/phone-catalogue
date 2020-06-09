@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import { connect } from 'react-redux';
 import {
   BrowserRouter as Router,
@@ -9,9 +9,15 @@ import {
 
 import './App.css';
 import Header from './components/Header';
-import PhoneDetailsContainer from './components/PhoneDetailsContainer';
-import PhonesListContainer from './components/PhonesListContainer';
 import { fetchPhones } from './state/actions/phones.actions';
+import Spinner from './components/Spinner';
+
+const PhoneDetailsContainer = React.lazy(() =>
+  import('./components/PhoneDetailsContainer')
+);
+const PhonesListContainer = React.lazy(() =>
+  import('./components/PhonesListContainer')
+);
 
 function App({ dispatch }) {
   useEffect(() => {
@@ -20,16 +26,18 @@ function App({ dispatch }) {
 
   return (
     <Router>
-      <Header />
-      <div className='container'>
-        <Switch>
-          <Route exact path='/'>
-            <Redirect to='/phones' />
-          </Route>
-          <Route exact path='/phones' component={PhonesListContainer} />
-          <Route path='/phones/:id' component={PhoneDetailsContainer} />
-        </Switch>
-      </div>
+      <Suspense fallback={<Spinner />}>
+        <Header />
+        <div className='container'>
+          <Switch>
+            <Route exact path='/'>
+              <Redirect to='/phones' />
+            </Route>
+            <Route exact path='/phones' component={PhonesListContainer} />
+            <Route path='/phones/:id' component={PhoneDetailsContainer} />
+          </Switch>
+        </div>
+      </Suspense>
     </Router>
   );
 }
