@@ -1,5 +1,6 @@
 ## Instructions
 
-To run the application, execute:
+To run the application:
 
-`docker-compose up --build`
+1. Execute `docker-compose up --build`
+2. Open `http://localhost:3000/` in your browser
