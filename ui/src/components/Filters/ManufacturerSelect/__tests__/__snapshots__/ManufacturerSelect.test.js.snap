@@ -7,10 +7,10 @@ exports[`ManufacturerSelect should render component 1`] = `
   onChange={[Function]}
 >
   <option
-    key="All"
+    key="All Manufacturers"
     value=""
   >
-    All
+    All Manufacturers
   </option>
   <option
     key="Apple"

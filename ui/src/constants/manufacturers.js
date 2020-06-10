@@ -1,5 +1,5 @@
 export const MANUFACTURERS = {
-  All: '',
+  'All Manufacturers': '',
   Apple: 'Apple',
   Asus: 'Asus',
   Huawei: 'Huawei',

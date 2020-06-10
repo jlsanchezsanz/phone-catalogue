@@ -22,7 +22,7 @@ describe('PhonesList', () => {
     component = setUpShallow(phonesMock.data);
     const manufacturersSelect = component.find('Filters');
     manufacturersSelect.prop('onFiltersChange')({
-      manufacturer: MANUFACTURERS.All
+      manufacturer: MANUFACTURERS['All Manufacturers']
     });
     expect(component).toMatchSnapshot();
   });

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { MANUFACTURERS } from '../../../constants/manufacturers';
+import './ManufacturerSelect.css'
 
 export default function ManufacturerSelect({ onManufacturerChange }) {
   function handleManufacturerChange(e) {

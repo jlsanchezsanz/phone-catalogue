@@ -14,7 +14,7 @@ export default function PhonesList({ phones }) {
   function handleFiltersChange(filters) {
     const { manufacturer } = filters;
     const filteredPhones =
-      manufacturer === MANUFACTURERS.All
+      manufacturer === MANUFACTURERS['All Manufacturers']
         ? phones
         : phones.filter((phone) => phone.manufacturer === manufacturer);
     setFilteredPhones(filteredPhones);
